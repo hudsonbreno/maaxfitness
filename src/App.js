@@ -7,28 +7,22 @@ export default function App() {
     <>
     <BrowserRouter>
       <Navbar>
-        <img src=""/>
-      </Navbar>
-    flor
-    </BrowserRouter>
-
-    {/* <Navbar>
-        <img src=""/>
-
+        carla
       </Navbar>
       <Routes>
-        <Router path="/" element={<HomePage/>}/>
-
+        <Router path="/" element={<HomePage />}/>    
       </Routes>
-      <Footer>Maax Fitness </Footer> */}
+      <Footer>Maax Fitness </Footer>
+    </BrowserRouter>
+
     </>
   );
 }
 
 const Navbar = styled.div`
-display: flex;
+  display: flex;
 `
 
-// const Footer = styled.div`
-// display: flex;
-// `
+const Footer = styled.div`
+  display: flex;
+ `
